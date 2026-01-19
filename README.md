@@ -7,6 +7,9 @@ A collection of handy development and operations tools to streamline common task
 ### AWS S3
 - **[empty-bucket](aws/s3/)** - Safely delete all versions and delete markers from S3 buckets, including versioned buckets
 
+### AWS DynamoDB
+- **[empty-table](aws/dynamodb/)** - Delete all items from a DynamoDB table using batch operations
+
 ## Getting Started
 
 Each tool is organized in its own directory with dedicated documentation and dependencies. Navigate to the specific tool directory for detailed usage instructions.
@@ -20,6 +23,8 @@ This is a personal collection of utilities, but feel free to suggest improvement
 ```
 utilities/
 ├── aws/
+│   ├── dynamodb/
+│   │   └── empty-table.py
 │   └── s3/
 │       └── empty-bucket.py
 └── README.md
